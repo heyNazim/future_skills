@@ -1,0 +1,82 @@
+body{
+  box-sizing: border-box;
+}
+
+
+/* Header Css */
+header{
+  background-color: #000000;
+  padding: 10px 0px;
+}
+
+.h-left-part{
+  color: #fff;
+}
+
+.head-button{
+  color: #fff;
+  background-color: #1a1a1a;
+  border: 1.5px solid #555555;
+
+  border-radius: 5px;
+  padding: 3px 20px;
+}
+
+.navlink-class{
+  color: #fff;
+}
+/* How Can we Help */
+.how-can-we-help{
+  background-color: #dadbf0;
+}
+
+.search-input{
+  width: 40% !important;
+  margin: auto;
+  text-align: center;
+}
+
+/* All Cards List */
+.card-box{
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 80%;
+  min-height: 110px;
+
+}
+.card-box>h6{
+  border-bottom: 1.5px solid #d5dee9;
+  padding: 10px 20px;
+}
+.card-box>p{
+  padding: 10px 20px;
+}
+
+
+/* Create New card Page */
+.form-card-box{
+  margin: auto;
+  background-color: #f4f6f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 350px;
+}
+/* Footer */
+footer{
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+.col-md-2 > ul{
+  padding-left: 0; /* Ensure no padding is added to the <li> */
+  margin: 0; /* Ensure no margin is added to the <li> */
+}
+.col-md-2 > ul > li {
+  list-style-type: none; /* Remove the bullet point */
+  font-size: 13px; /* Set font size */
+
+}
