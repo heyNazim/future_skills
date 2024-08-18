@@ -19,8 +19,8 @@ app.use('/cards', router)
 
 
 
-const PORT = process.env.PORT
+const PORT = 8080
 // Start the server 
 app.listen(PORT,()=>{
-    console.log(`Server is running on port ${PORT}`.bgWhite)
+    console.log(`Server is running on port ${PORT}`)
 })
